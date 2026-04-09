@@ -60,7 +60,7 @@ jobs:
           prerelease: ${{ steps.get_version.outputs.prerelease }}
 
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: SwiftUIPager.xcframework.zip
           path: ./
