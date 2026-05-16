@@ -18,7 +18,7 @@ jobs:
     name: Run tests and Get Code Coverage
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
 
       - name: Run tests
         run: swift test --enable-code-coverage
